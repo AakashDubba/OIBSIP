@@ -97,12 +97,3 @@ mypy src
 ```
 
 ---
-
-## 🎥 Demo Video Talking Points
-
-1. **Modern Dark-Mode Design**: Highlight the dark theme styling, elevated metric cards, and clean typography built with CustomTkinter.
-2. **Non-blocking Responsiveness**: Demonstrate entering a query and show that the UI remains interactive (buttons, toggles, window movement) while background threads fetch meteorological and regional news data.
-3. **Comprehensive Forecasting**: Walk through the current weather card, the 6-hour hourly trend bar, and the 5-day daily outlook with High/Low ranges.
-4. **Instant Unit Conversion**: Switch between `°C` and `°F` using the toggle control and observe all metric cards, hourly forecasts, and daily outlooks convert immediately without reloading network data.
-5. **IP Geolocation**: Click the "📍 Locate Me" button to showcase automatic location resolution via the IP geolocation engine.
-6. **Graceful Error Handling**: Type an invalid city name or test offline mode to show clean error notifications with zero unhandled exceptions.

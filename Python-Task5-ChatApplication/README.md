@@ -140,10 +140,3 @@ python smoke_test.py
 
 ---
 
-## 🎥 Demo Video Talking Points
-
-1. **Protocol Framing**: Explain why binary length-prefixed framing (4-byte header + UTF-8 payload) is critical for reliable TCP socket communication without stream corruption.
-2. **Cryptographic Security**: Demonstrate user registration and explain PBKDF2-HMAC-SHA256 password hashing with unique per-user salts.
-3. **Room Isolation**: Open two clients (one in `#triage` and one in `#general`), send an emergency alert in `#triage`, and show that messages never leak across department boundaries.
-4. **Role Enforcement**: Attempt to access `#physician-consult` as a `NURSE` to demonstrate role-based authorization rejection, followed by authorized entry as a `DOCTOR`.
-5. **History Replay**: Disconnect a client, reconnect, enter `#triage`, and showcase the instant SQLite message history replay.

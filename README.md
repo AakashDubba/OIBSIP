@@ -172,28 +172,6 @@ python smoke_test.py
 
 ---
 
-## 🎥 Video Demo Presentation Talking Points
-
-1. **Portfolio Cohesion & Ecosystem Architecture**:
-   - Showcase how each task fulfills both the Oasis Infobyte specification and represents an advanced-tier, professional software component.
-   - Highlight strict modularity: zero code entanglement, independent `requirements.txt`, clean configuration boundaries.
-2. **Task 1 (Voice Assistant)**:
-   - Walk through the non-blocking audio engine: demonstrate firing multiple queries while TTS audio drains from background queues.
-   - Show real live RSS feed queries with in-memory TTL caching and live Open-Meteo weather geocoding.
-   - Highlight security in the two-stage email confirmation workflow: explain why automated email sending in voice assistants creates security risks, and showcase the explicit `confirm draft <ID>` mechanism.
-3. **Task 4 (Weather Engine)**:
-   - Demonstrate the modern dark-mode CustomTkinter interface with elevated metric cards.
-   - Click the Celsius/Fahrenheit toggle to showcase instantaneous client-side unit conversion across all metrics, hourly forecasts, and daily outlooks.
-   - Trigger the "📍 Locate Me" button to demonstrate IP-based geolocation.
-   - Show that entering queries keeps the GUI 100% interactive because network operations run in decoupled background threads.
-4. **Task 5 (Clinical Messaging Hub)**:
-   - Explain the binary length-prefixed protocol: why raw TCP sockets suffer from stream fragmentation and how a 4-byte header guarantees atomic JSON packet arrival.
-   - Show PBKDF2-HMAC-SHA256 password hashing with unique per-user salts stored in SQLite.
-   - Demonstrate room segregation: open two clients (one in `#triage`, one in `#general`), send an emergency alert in `#triage`, and show that messages never leak across department boundaries.
-   - Showcase role-based authorization: demonstrate a nurse being rejected from `#physician-consult` and a doctor successfully gaining access.
-   - Disconnect and reconnect to highlight instant message history replay from SQLite.
-
----
 
 ## 🛡️ Security & Privacy Disclosures
 

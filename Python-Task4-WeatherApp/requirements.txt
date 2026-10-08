@@ -1,0 +1,10 @@
+# NewsWorld Contextual Weather Engine Dependencies
+# Target Python Version: 3.11+
+
+requests>=2.31.0
+types-requests>=2.31.0
+customtkinter>=6.0.0
+darkdetect>=0.8.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
+mypy>=1.9.0

@@ -1,0 +1,9 @@
+# NewsWorld AI Voice Assistant Dependencies
+# Target Python Version: 3.11+
+
+requests>=2.31.0
+pyttsx3>=2.90
+SpeechRecognition>=3.10.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
+mypy>=1.9.0

@@ -1,0 +1,6 @@
+# ClinicFlow AI Secure Clinical Messaging Hub Dependencies
+# Target Python Version: 3.11+
+# Built primarily with Python Standard Library (socket, threading, sqlite3, hashlib, tkinter)
+
+pytest>=8.0.0
+mypy>=1.9.0

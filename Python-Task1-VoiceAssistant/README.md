@@ -121,10 +121,3 @@ mypy src
 
 ---
 
-## 🎥 Demo Video Talking Points
-
-1. **Architecture Overview**: Highlight the decoupled architecture separating audio capture, background TTS queuing, and intent dispatching.
-2. **Non-blocking Concurrency**: Demonstrate queuing multiple commands and speech alerts simultaneously without thread deadlocks or blocked I/O.
-3. **Live External Integrations**: Showcase real-time RSS feed parsing with in-memory TTL caching and live weather geocoding.
-4. **Security & Human-in-the-Loop**: Walk through the two-stage email draft preview and explicit confirmation command, explaining why voice assistants must never send emails automatically.
-5. **Hardware Resilience**: Explain how the text fallback mode ensures complete testability in headless CI/CD environments.
